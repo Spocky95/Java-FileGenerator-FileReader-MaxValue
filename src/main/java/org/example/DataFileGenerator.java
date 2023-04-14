@@ -17,7 +17,7 @@ public class DataFileGenerator {
 
             Random rand = new Random();
             for (int i = 0; i < 1000; i++) {
-                int randNum = rand.nextInt(10000) + 1;
+                int randNum = rand.nextInt(1000000) + 1;
                 System.out.println(i + "=" + randNum);
                 bufferedWriter.write(randNum + "\n");
             }
