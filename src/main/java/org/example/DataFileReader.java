@@ -21,9 +21,10 @@ public class DataFileReader {
                 int number = Integer.parseInt(line.trim());
                 list.add(number);
             }
-            System.out.println("Plik został odczytany.");
 
+            System.out.println("Plik został odczytany.");
             reader.close();
+
         } catch (IOException e) {
             System.out.println("Wystąpił błąd podczas odczytu pliku.");
             e.printStackTrace();

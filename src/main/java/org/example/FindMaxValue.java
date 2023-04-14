@@ -10,7 +10,6 @@ public class FindMaxValue {
                 maxValue = array[i];
             }
         }
-
         return maxValue;
     }
 

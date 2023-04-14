@@ -14,7 +14,6 @@ public class DataFileGenerator {
             FileWriter writer = new FileWriter(file);
             BufferedWriter bufferedWriter = new BufferedWriter(writer);
             //Kod do zapisania do pliku
-
             Random rand = new Random();
             for (int i = 0; i < 1000; i++) {
                 int randNum = rand.nextInt(1000000) + 1;
